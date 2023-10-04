@@ -24,5 +24,10 @@ namespace Lecture_5_inclass
         {
             InitializeComponent();
         }
+
+        private void btnContinue_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

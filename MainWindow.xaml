@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Canvas>
+        <Label Content="Your Name" Canvas.Left="340" Canvas.Top="74" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtName" Canvas.Left="340" TextWrapping="Wrap" Canvas.Top="100" Width="120"/>
+        <Button x:Name="btnContinue" Content="Continue" Canvas.Left="340" Canvas.Top="313" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Click="btnContinue_Click"/>
+        <TextBox Canvas.Left="340" TextWrapping="Wrap" Text="TextBox" Canvas.Top="160" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="340" TextWrapping="Wrap" Text="TextBox" Canvas.Top="220" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="340" TextWrapping="Wrap" Text="TextBox" Canvas.Top="280" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
 
     </Canvas>
 </Window>
